@@ -61,17 +61,17 @@ function Tasbiih (){
 
 
     return <div>
-        <div className="flex justify-center mt-[100px] ">
-            <div> 
+        <div className="flex  justify-center mt-[100px] ">
+            <div className=""> 
 
             <h1 className="text-7xl font-bold text-center ">{counter}</h1>
-            <button onClick={incrementCounter} className="bg-sky-500 w-[100px] h-[40px] rounded m-5 mt-10 ">Increment</button>
-            <button onClick={handleDecrement} className="bg-sky-500 w-[100px] h-[40px] rounded m-5 mt-10 ">decrement</button>
-            <button onClick={resetCounter} className="bg-green-500 w-[100px] h-[40px] rounded m-5 mt-10 ">Reset</button>
+            <button onClick={incrementCounter} className="bg-sky-500 w-[100px] h-[40px] rounded  sm:m-5 m-2 mt-10 ">Increment</button>
+            <button onClick={handleDecrement} className="bg-sky-500 w-[100px] h-[40px] rounded sm:m-5 m-2   mt-10 ">decrement</button>
+            <button onClick={resetCounter} className="bg-green-500 w-[100px] h-[40px] rounded sm:m-5 m-2  mt-10 ">Reset</button>
             </div>
 
         </div>
         
-    </div>
+    </div> 
 }
 export default Tasbiih
